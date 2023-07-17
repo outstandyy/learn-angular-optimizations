@@ -42,7 +42,7 @@ Resources:
 
 3. `*ngFor` with `trackBy`
 
-4. Pure pipes instead of method calls in tenplates
+4. Pure pipes instead of method calls in templates
 
 5. Pure pipes with caching (`@memo`)
 
