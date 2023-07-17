@@ -3,8 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "clean": "rm -rf dist",
     "start": "ng serve",
-    "build": "ng build",
+    "ngc": "ngc -p tsconfig.json && cp app/* compiled",
+    "rollup": "rollup -f iife -c rollup.config.js -o dist/bundle.es2015.js",
+    "es5": "tsc --target es5 --allowJs dist/bundle.es2015.js --out dist/bundle.js",
+    "build": "npm run clean && tsc",
+    "build_prod": "npm run build && browserify -s main dist/learn-angular-optimizations/main.js > dist/bundle.js",
+    "minify": "uglifyjs dist/bundle.js --screw-ie8 --compress --mangle --output dist/bundle.min.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
