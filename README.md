@@ -58,6 +58,10 @@ Resources:
 
 11. SSR
 
+12. Unsubscribe logic (takeUntil)
+
+13. `providedIn`
+
 
 
 
