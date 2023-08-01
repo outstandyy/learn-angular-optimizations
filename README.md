@@ -73,3 +73,4 @@ Resources:
 - https://github.com/mgechev/angular-performance-checklist
 - https://www.youtube.com/watch?v=WdSXDGtd9lY&ab_channel=AngularMeetupZurich
 - (takeUntil) https://stackoverflow.com/questions/57007118/do-i-need-to-complete-takeuntil-subject-inside-ngondestroy
+- (takeUntil) https://cartant.medium.com/rxjs-avoiding-takeuntil-leaks-fb5182d047ef
