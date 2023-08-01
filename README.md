@@ -40,11 +40,11 @@ Resources:
 
 2. Smart + Dumb components
 
-3. `*ngFor` with `trackBy`
+3. Pure pipes instead of method calls in templates
 
-4. Pure pipes instead of method calls in templates
+4. Pure pipes with caching (`@memo`)
 
-5. Pure pipes with caching (`@memo`)
+5. `*ngFor` with `trackBy`
 
 6. Async pipes
 
@@ -72,3 +72,4 @@ Resources:
 **Resources**
 - https://github.com/mgechev/angular-performance-checklist
 - https://www.youtube.com/watch?v=WdSXDGtd9lY&ab_channel=AngularMeetupZurich
+- (takeUntil) https://stackoverflow.com/questions/57007118/do-i-need-to-complete-takeuntil-subject-inside-ngondestroy
